@@ -46,7 +46,7 @@
 
 **📂 시스템 아키텍처 (System Architecture)**
 
-![image.png](%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%ED%95%99%EB%B6%80%20%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8/image.png)
+![image.png](images/image.png)
 
 **주요 컴포넌트**
 
@@ -216,7 +216,7 @@ P X                     # 추적 종료 (Stop Tracking)
 
 users와 user_sessions는 정규화된 테이블로 관리하며, 로그성 데이터인 device_events는 JSONB를 활용해 유연하게 저장합니다.
 
-![image.png](%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%ED%95%99%EB%B6%80%20%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8/image%201.png)
+![image.png](images/image1.png)
 
 **💾 하이브리드 데이터 스키마 (Hybrid Schema)**
 
@@ -247,7 +247,7 @@ users와 user_sessions는 정규화된 테이블로 관리하며, 로그성 데�
 
 **System Sequence Diagram**
 
-![image.png](%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%ED%95%99%EB%B6%80%20%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8/image%202.png)
+![image.png](images/image2.png)
 
 **📨 MQTT 토픽 설계 (Message Bus)**
 
